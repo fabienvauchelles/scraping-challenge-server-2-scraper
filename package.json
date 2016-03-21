@@ -1,0 +1,24 @@
+{
+  "name": "challenge-server-2-scraper",
+  "description": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fabien Vauchelles",
+    "email": "fabien@vauchelles.com",
+    "url": "http://fabien.vauchelles.com"
+  },
+  "url": "https://github.com/fabienvauchelles/scraping-scraper-nodejs",
+  "repository": "fabienvauchelles/scraping-scraper-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~3.3.4",
+    "cheerio": "~0.20.0",
+    "lodash": "~4.6.1",
+    "request": "~2.69.0",
+    "winston": "^2.2.0"
+  }
+}
