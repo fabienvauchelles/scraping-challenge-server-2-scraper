@@ -49,8 +49,6 @@ getProfilesUrls(config.source, config.opts)
 ////////////
 
 function getProfilesUrls(url, defaultOpts) {
-    winston.debug('Get main %s ...', url);
-
     return new Promise((resolve, reject) => {
         const opts = _.merge({}, defaultOpts, {url});
 
@@ -76,8 +74,6 @@ function getProfilesUrls(url, defaultOpts) {
 }
 
 function getProfile(url, defaultOpts) {
-    winston.debug('Get profile %s ...', url);
-
     return new Promise((resolve, reject) => {
         const opts = _.merge({}, defaultOpts, {url});
 
